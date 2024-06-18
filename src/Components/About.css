@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.about{
+    margin-top: 200px;
+    color: black;
+    text-align: left;
+    margin-left: 50px;
+}
