@@ -36,6 +36,7 @@ function Departments() {
                 <li>Old Age Department</li>
                 <img src={kidd} className="hall" alt="hall"></img>
                 <li>kids Wellness</li>
+                // Add more departments as needed
                 
             </ul>
         </div>
