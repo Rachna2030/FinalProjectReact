@@ -1,9 +1,9 @@
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../Firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import './Style.css';
+import { Link } from "react-router-dom";
 
 const Signup = () => {
 
@@ -27,7 +27,8 @@ const Signup = () => {
     }
 
     return (
-        <div>
+        <div className="container">
+
             <h1>Sign Up</h1>
             <form onSubmit={handleSignup}>
                 <input
