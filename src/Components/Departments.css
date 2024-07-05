@@ -1,34 +1,32 @@
-.yoga{
-    width: 300px;
-    height: 300px;
-    margin-left: 20%px;
-    margin-top: 50px;
-    margin-right: 90%;
+.departments {
+    text-align: center;
+    padding: 20px;
+}
+
+.departments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.department {
+    display: inline-block;
+    margin: 20px;
     text-align: center;
 }
-p{
-    text-align: center;
+
+.department img {
+    width: 252px;
+    height: 252px;
+    object-fit: cover;
+}
+
+.department p {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 h1{
+    color: black;
     text-align: center;
-}
-.checkup{
-    width: 300px;
-    height: 300px;
-    margin-left: 200px;
-    margin-top: -125px;
-    text-align: right;
-}
-.reception{
-    width: 300px;
-    height: 300px;
-    margin-left: 380px;
-    margin-top: -215px;
-    /* margin-right: 90%; */
-    text-align: right;
-    
-}
-.department{
-    text-align: center;
-    margin-top: 20%;
+    margin-top: 121px;
+
 }
