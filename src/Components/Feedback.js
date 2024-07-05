@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+ import './Feedback.css'; 
 
 function Feedback() {
+    const navigate = useNavigate();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    const [feedback, setFeedback] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Handle form submission logic (e.g., send data to a server)
-        alert('Feedback submitted');
+    
+        navigate('/Thanks');
     };
 
     return (
-        <div className="feedback">
+        <div className="feedback-form-page">
             <h1>Feedback</h1>
             <form onSubmit={handleSubmit}>
                 <div>
@@ -36,8 +39,8 @@ function Feedback() {
                 <div>
                     <label>Message:</label>
                     <textarea
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
+                        value={feedback} 
+                        onChange={(e) => setFeedback(e.target.value)} 
                         required
                     ></textarea>
                 </div>
