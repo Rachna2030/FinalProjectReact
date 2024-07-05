@@ -5,8 +5,10 @@ body{
     
 }
 .about{
-    margin-top: 200px;
+    margin-top: 170px;
     color: black;
-    text-align: left;
+    text-align: center;
     margin-left: 50px;
+    font-size: large;
+    
 }
