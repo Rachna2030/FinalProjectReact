@@ -1,13 +1,13 @@
 .home {
     text-align: left;
-    margin-left: 50px;
-    margin-top: 250px;
+    margin-left: 52px;
+    margin-top: 251px;
     width:fit-content;
-   
+
 }
 
 .page {
-    height: 400px;
+    height: 410px;
     width: 450px;
     margin-top: -35%;
     margin-left: 105%;
@@ -26,5 +26,5 @@
     margin-top: -4% ;
     text-align: center;
     margin-left: 10%;
-    color: blueviolet;
+    color: rgb(152, 69, 230);
 }
