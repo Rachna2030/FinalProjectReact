@@ -27,11 +27,11 @@ function Admin() {
     };
 
     return (
-        <div className="admin-page">
-            <h1>Admin Form</h1>
+        <div className="admin">
+            <h2>Admin Form</h2>
 
-            <section className="admin-section">
-                <h2>Add New User</h2>
+            <section className="admin-main">
+                <h3>Add New User</h3>
                 <form onSubmit={handleAddUser}>
                     <div>
                         <label>Username:</label>
@@ -64,8 +64,8 @@ function Admin() {
                 </form>
             </section>
 
-            <section className="admin-section">
-                <h2>Manage Users History</h2>
+            <section className="admin-main">
+                <h3>Manage Users History</h3>
                 <table>
                     <thead>
                         <tr>
